@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Cascadia Code";
+    src: url(../fonts/Cascadia_Code/CascadiaCode-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+    background-image: url(bg.png);
+    background-size: 100%;
+    font-family: "Cascadia Code";
+}
+header{
+    background-color: #121212;
+    display: flex;
+    color: #DF4444;
+    padding: 0 20px;
+}
+nav {
+    display: flex;
+}
+button{
+    background-color: #121212;
+    color: #DF4444;
+    font-family: "Cascadia Code";
+    border: none;
+    font-size: 2.2vh;
+    margin: 0 1vw;
+    height: 100%;
+    padding: 10%;
+}
+button:hover{
+    background-color: #1C1C1C;
+}
+main{
+    
+    display: flex;
+    align-items: center;
+}
+article{
+    display: flex;
+    width: 60vw;
+    margin-top: 10vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+#pic{
+    background-color: #121212;
+    color: #DF4444;
+    width: 50%;
+    min-width: 250px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#pic img{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+#pic h3, #pic p{
+    margin-left: 10%;
+    margin-bottom: 2vh;
+}
+#about{
+    background-color: #DF4444;
+    color: #121212;
+    width: 50%;
+    min-width: 250px;
+    padding: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Cascadia Code";
+    src: url(../fonts/Cascadia_Code/CascadiaCode-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+    background-image: url(bg.png);
+    background-size: 100%;
+    font-family: "Cascadia Code";
+}
+header{
+    background-color: #121212;
+    display: flex;
+    color: #DF4444;
+    padding: 0 20px;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+main nav{
+    
+    justify-content: center;
+}
+button{
+    background-color: #121212;
+    color: #DF4444;
+    font-family: "Cascadia Code";
+    border: none;
+    font-size: 2.2vh;
+    margin: 0 1vw;
+    height: 100%;
+    padding: 10%;
+}
+button:hover{
+    background-color: #1C1C1C;
+}
+article{
+    margin: 0 0 5vh 0;
+    padding: 3vh;
+    background-color: #1C1C1C;
+    border-bottom: solid 2px #DF4444;
+}
+h2{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: #DF4444;
+    font-size: 30px;
+}
+.card{
+    background-color: #DF4444;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 8px;
+    margin: 0 1vw 3vh  1vw;
+}
+.coverimage{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+}
+.description{
+    margin: 0 15px;
+}
+
+a:link, a:visited{
+    color: #121212;
+    text-decoration: none;
+}
